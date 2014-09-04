@@ -16177,6 +16177,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <junction x="119.38" y="134.62"/>
 <wire x1="124.46" y1="134.62" x2="132.08" y2="134.62" width="0.1524" layer="91"/>
 <junction x="132.08" y="134.62"/>
+<junction x="124.46" y="134.62"/>
 </segment>
 </net>
 <net name="N$1" class="0">
