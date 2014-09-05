@@ -1701,7 +1701,7 @@ design rules under a new name.</description>
 <element name="C2" library="rcl" package="UD-5X5,8_NICHICON" value="14uF" x="86.36" y="63.5"/>
 <element name="C_R" library="rcl" package="C0603" value="3300pF" x="73.66" y="76.835" rot="R270"/>
 <element name="C_AC" library="rcl" package="C0603" value="100nF" x="69.85" y="76.835" rot="R270"/>
-<element name="JP3" library="SparkFun-Connectors" package="1X06_LONGPADS" value="" x="36.83" y="76.2" rot="R270"/>
+<element name="JP3" library="SparkFun-Connectors" package="1X06_LONGPADS" value="" x="36.83" y="66.04" rot="R90"/>
 <element name="JP4" library="SparkFun-Connectors" package="1X01" value="M01PTH" x="40.64" y="49.53"/>
 <element name="JP5" library="SparkFun-Connectors" package="1X01" value="M01PTH" x="38.1" y="49.53"/>
 <element name="JP6" library="SparkFun-Connectors" package="1X01" value="M01PTH" x="38.1" y="59.69"/>
@@ -1768,8 +1768,8 @@ design rules under a new name.</description>
 <vertex x="64.77" y="69.85"/>
 <vertex x="77.47" y="69.85"/>
 <vertex x="77.47" y="64.77"/>
-<vertex x="41.91" y="64.77"/>
-<vertex x="41.91" y="69.85"/>
+<vertex x="44.1325" y="64.77"/>
+<vertex x="44.1325" y="69.85"/>
 <vertex x="52.07" y="69.85"/>
 <vertex x="52.07" y="75.8825"/>
 <vertex x="44.45" y="75.8825"/>
@@ -1831,15 +1831,18 @@ design rules under a new name.</description>
 <contactref element="JP6" pad="1"/>
 <contactref element="JP7" pad="1"/>
 <wire x1="43.18" y1="72.07" x2="46.99" y2="72.07" width="0.8128" layer="1"/>
-<wire x1="36.83" y1="76.2" x2="40.64" y2="76.2" width="1.016" layer="1"/>
-<wire x1="40.64" y1="76.2" x2="43.1775" y2="73.6575" width="1.016" layer="1"/>
-<wire x1="43.18" y1="72.07" x2="43.1775" y2="73.6575" width="1.016" layer="1"/>
 <wire x1="46.99" y1="72.07" x2="46.99" y2="74.065" width="1.016" layer="1"/>
 <wire x1="46.99" y1="74.065" x2="46.355" y2="74.7" width="1.016" layer="1"/>
 <wire x1="50.7238" y1="74.295" x2="46.76" y2="74.295" width="1.016" layer="1"/>
 <wire x1="46.76" y1="74.295" x2="46.355" y2="74.7" width="1.016" layer="1"/>
-<wire x1="40.64" y1="59.69" x2="43.18" y2="72.07" width="0" layer="19" extent="1-1"/>
-<wire x1="38.1" y1="59.69" x2="40.64" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="43.18" y1="72.07" x2="41.59" y2="72.07" width="1.016" layer="1"/>
+<wire x1="41.59" y1="72.07" x2="40.64" y2="71.12" width="1.016" layer="1"/>
+<wire x1="40.64" y1="71.12" x2="40.64" y2="67.31" width="1.016" layer="1"/>
+<wire x1="40.64" y1="67.31" x2="39.37" y2="66.04" width="1.016" layer="1"/>
+<wire x1="39.37" y1="66.04" x2="36.83" y2="66.04" width="1.016" layer="1"/>
+<wire x1="40.64" y1="59.69" x2="39.37" y2="59.69" width="1.016" layer="1"/>
+<wire x1="39.37" y1="59.69" x2="38.1" y2="59.69" width="1.016" layer="1"/>
+<wire x1="39.37" y1="66.04" x2="39.37" y2="59.69" width="1.016" layer="1"/>
 </signal>
 <signal name="5V">
 <contactref element="JP1" pad="12"/>
@@ -1955,7 +1958,7 @@ design rules under a new name.</description>
 <signal name="SHUNT+">
 <contactref element="JP3" pad="4"/>
 <contactref element="JP4" pad="1"/>
-<wire x1="40.64" y1="49.53" x2="36.83" y2="68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="49.53" x2="36.83" y2="73.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPEED_5">
 <contactref element="JP3" pad="5"/>
