@@ -15430,7 +15430,7 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <part name="C2" library="rcl" deviceset="CPOL-US" device="UD-5X5,8" value="14uF"/>
 <part name="C_R" library="rcl" deviceset="C-US" device="C0603" value="3300pF"/>
 <part name="C_AC" library="rcl" deviceset="C-US" device="C0603" value="100nF"/>
-<part name="JP3" library="SparkFun-Connectors" deviceset="M06" device="LONGPADS"/>
+<part name="JP3" library="SparkFun-Connectors" deviceset="M06" device="SIP"/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="JP5" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="JP6" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
