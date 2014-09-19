@@ -1658,91 +1658,88 @@ Please make sure your boards conform to these design rules.</description>
 <elements>
 <element name="IC1" library="Railstars" package="SOIC-8-POWERPAD" value="LM5017" x="53.34" y="73.66" smashed="yes" rot="R270">
 <attribute name="VALUE" x="52.07" y="70.485" size="0.4064" layer="27"/>
-<attribute name="NAME" x="52.07" y="76.2" size="0.4064" layer="25"/>
+<attribute name="NAME" x="52.705" y="70.485" size="0.6096" layer="25"/>
 </element>
 <element name="R_ON" library="rcl" package="M0805" value="250K" x="46.99" y="71.12" smashed="yes" rot="R270">
-<attribute name="NAME" x="48.26" y="72.39" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="48.5775" y="69.215" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="44.45" y="72.39" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R_FB2" library="rcl" package="M0805" value="3K" x="68.58" y="71.755" smashed="yes">
-<attribute name="NAME" x="67.31" y="73.025" size="1.27" layer="25"/>
+<attribute name="NAME" x="66.675" y="69.85" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="67.31" y="69.215" size="1.27" layer="27"/>
 </element>
 <element name="R_FB1" library="rcl" package="M0805" value="1K" x="63.8175" y="71.755" smashed="yes">
-<attribute name="NAME" x="62.5475" y="73.025" size="1.27" layer="25"/>
+<attribute name="NAME" x="61.595" y="69.85" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="62.5475" y="69.215" size="1.27" layer="27"/>
 </element>
 <element name="C_VCC" library="rcl" package="C0603" value="1uF" x="59.3725" y="71.755" smashed="yes">
-<attribute name="NAME" x="58.7375" y="72.39" size="1.27" layer="25"/>
+<attribute name="NAME" x="57.785" y="69.85" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="58.7375" y="69.85" size="1.27" layer="27"/>
 </element>
 <element name="C_BST" library="rcl" package="C0603" value="0.01uF" x="59.3725" y="74.6125" smashed="yes">
-<attribute name="NAME" x="58.7375" y="75.2475" size="1.27" layer="25"/>
+<attribute name="NAME" x="57.15" y="75.565" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="58.7375" y="72.7075" size="1.27" layer="27"/>
 </element>
 <element name="C_IN" library="rcl" package="C1210K" value="2.2uF" x="46.0375" y="76.2" smashed="yes" rot="R90">
-<attribute name="NAME" x="44.4875" y="74.6" size="1.016" layer="25" rot="R90"/>
+<attribute name="NAME" x="48.2975" y="73.965" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="48.6125" y="74.6" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="C_OUT" library="rcl" package="C0603" value="5.6uF" x="71.755" y="70.8025" smashed="yes" rot="R270">
-<attribute name="NAME" x="72.39" y="71.4375" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="72.7075" y="72.0725" size="0.6096" layer="25" rot="R270"/>
 <attribute name="VALUE" x="69.85" y="71.4375" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R_UV2" library="rcl" package="M0805" value="125K" x="43.18" y="73.66" smashed="yes" rot="R90">
-<attribute name="NAME" x="41.91" y="72.39" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="41.91" y="72.0725" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="45.72" y="72.39" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R_UV1" library="rcl" package="M0805" value="14K" x="43.18" y="78.105" smashed="yes" rot="R270">
-<attribute name="NAME" x="44.45" y="79.375" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="41.91" y="76.5175" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="40.64" y="79.375" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="L1" library="Railstars" package="SRN1060" value="100uH" x="80.3275" y="74.295" smashed="yes">
-<attribute name="NAME" x="75.2475" y="80.645" size="1.27" layer="25"/>
+<attribute name="NAME" x="84.455" y="79.6925" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="75.2475" y="66.675" size="1.27" layer="27"/>
 </element>
 <element name="R_R" library="rcl" package="M0805" value="2M" x="63.8175" y="74.6125" smashed="yes">
-<attribute name="NAME" x="62.5475" y="75.8825" size="1.27" layer="25"/>
+<attribute name="NAME" x="62.23" y="75.8825" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="62.5475" y="72.0725" size="1.27" layer="27"/>
 </element>
 <element name="IC2" library="SparkFun-PowerIC" package="SOT223" value="LM1117-3.3" x="90.805" y="74.6125" smashed="yes" rot="R270">
-<attribute name="NAME" x="95.3135" y="75.438" size="0.4064" layer="25" rot="R270"/>
+<attribute name="NAME" x="95.3135" y="75.438" size="0.6096" layer="25" rot="R270"/>
 <attribute name="VALUE" x="90.6145" y="75.692" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="C1" library="rcl" package="UD-5X5,8_NICHICON" value="14uF" x="81.28" y="65.405" smashed="yes">
-<attribute name="NAME" x="78.74" y="68.58" size="1.016" layer="25"/>
+<attribute name="NAME" x="84.1375" y="63.8175" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="78.74" y="61.595" size="1.016" layer="27"/>
 </element>
 <element name="C2" library="rcl" package="UD-5X5,8_NICHICON" value="14uF" x="81.28" y="83.185" smashed="yes">
-<attribute name="NAME" x="78.74" y="86.36" size="1.016" layer="25"/>
+<attribute name="NAME" x="84.1375" y="81.5975" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="78.74" y="79.375" size="1.016" layer="27"/>
 </element>
 <element name="C_R" library="rcl" package="C0603" value="3300pF" x="71.755" y="74.6125" smashed="yes" rot="R270">
-<attribute name="NAME" x="72.39" y="75.2475" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="72.7075" y="75.565" size="0.6096" layer="25" rot="R270"/>
 <attribute name="VALUE" x="69.85" y="75.2475" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C_AC" library="rcl" package="C0603" value="100nF" x="68.58" y="74.6125" smashed="yes" rot="R180">
-<attribute name="NAME" x="69.215" y="73.9775" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="67.31" y="75.8825" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="69.215" y="76.5175" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="JP3" library="SparkFun-Connectors" package="1X06" value="" x="55.245" y="78.105"/>
+<element name="JP3" library="SparkFun-Connectors" package="1X06" value="" x="55.245" y="78.105" smashed="yes">
+<attribute name="VALUE" x="53.975" y="74.93" size="1.27" layer="27"/>
+</element>
 <element name="JP4" library="SparkFun-Connectors" package="1X01" value="M01PTH" x="73.025" y="78.105" smashed="yes">
-<attribute name="NAME" x="74.2188" y="79.9338" size="1.27" layer="25"/>
 <attribute name="VALUE" x="71.755" y="74.93" size="1.27" layer="27"/>
 </element>
 <element name="JP5" library="SparkFun-Connectors" package="1X01" value="M01PTH" x="70.485" y="78.105" smashed="yes">
-<attribute name="NAME" x="71.6788" y="79.9338" size="1.27" layer="25"/>
 <attribute name="VALUE" x="69.215" y="74.93" size="1.27" layer="27"/>
 </element>
 <element name="JP6" library="SparkFun-Connectors" package="1X01" value="M01PTH" x="50.165" y="78.105" smashed="yes">
-<attribute name="NAME" x="51.3588" y="79.9338" size="1.27" layer="25"/>
 <attribute name="VALUE" x="48.895" y="74.93" size="1.27" layer="27"/>
 </element>
 <element name="JP7" library="SparkFun-Connectors" package="1X01" value="M01PTH" x="52.705" y="78.105" smashed="yes">
-<attribute name="NAME" x="53.8988" y="79.9338" size="1.27" layer="25"/>
 <attribute name="VALUE" x="51.435" y="74.93" size="1.27" layer="27"/>
 </element>
 <element name="U$1" library="Railstars" package="BLEND_MICRO" value="BLEND_MICRO" x="55.88" y="74.295" smashed="yes" rot="R90">
-<attribute name="NAME" x="45.72" y="69.215" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="48.26" y="69.215" size="1.27" layer="27" rot="R90"/>
 </element>
 </elements>
