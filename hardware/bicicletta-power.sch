@@ -14037,9 +14037,8 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="76.2" y1="109.22" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="C_IN" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="106.68" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="109.22" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="127" x2="27.94" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="109.22" x2="60.96" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="109.22" x2="76.2" y2="109.22" width="0.1524" layer="91"/>
@@ -14047,17 +14046,17 @@ Standard adjustable voltage regulator but in SMD form. Spark Fun Electronics SKU
 <pinref part="R_UV1" gate="G$1" pin="1"/>
 <junction x="60.96" y="109.22"/>
 <pinref part="C_OUT" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="106.68" x2="101.6" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="106.68" x2="124.46" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="106.68" x2="132.08" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="106.68" x2="132.08" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="109.22" x2="101.6" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="109.22" x2="124.46" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="109.22" x2="132.08" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="109.22" x2="132.08" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="C_VCC" gate="G$1" pin="2"/>
 <wire x1="99.06" y1="124.46" x2="101.6" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="124.46" x2="101.6" y2="106.68" width="0.1524" layer="91"/>
-<junction x="101.6" y="106.68"/>
+<wire x1="101.6" y1="124.46" x2="101.6" y2="109.22" width="0.1524" layer="91"/>
+<junction x="101.6" y="109.22"/>
 <pinref part="R_FB1" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="114.3" x2="124.46" y2="106.68" width="0.1524" layer="91"/>
-<junction x="124.46" y="106.68"/>
+<wire x1="124.46" y1="114.3" x2="124.46" y2="109.22" width="0.1524" layer="91"/>
+<junction x="124.46" y="109.22"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="ADJ"/>
