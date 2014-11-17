@@ -146,13 +146,14 @@
 <text x="1.5875" y="10.4775" size="0.6096" layer="22" rot="MR90">S-</text>
 <text x="1.5875" y="5.08" size="0.6096" layer="22" rot="MR90">Sp</text>
 <text x="1.5875" y="2.8575" size="0.6096" layer="22" rot="MR90">Th</text>
-<text x="44.45" y="5.08" size="1.016" layer="22" rot="MR0">bicicletta power 20141113</text>
+<text x="44.45" y="3.175" size="1.016" layer="22" rot="MR0">bicicletta power</text>
 <text x="2.2225" y="15.5575" size="0.6096" layer="21" rot="R90">V+</text>
 <text x="2.2225" y="13.0175" size="0.6096" layer="21" rot="R90">V-</text>
 <text x="2.2225" y="7.9375" size="0.6096" layer="21" rot="R90">S+</text>
 <text x="2.2225" y="10.4775" size="0.6096" layer="21" rot="R90">S-</text>
 <text x="2.2225" y="5.08" size="0.6096" layer="21" rot="R90">Sp</text>
 <text x="2.2225" y="2.8575" size="0.6096" layer="21" rot="R90">Th</text>
+<text x="6.985" y="0.635" size="0.6096" layer="22" rot="MR0">20141113</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -1475,6 +1476,160 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package>
 </packages>
 </library>
+<library name="Artificial Science">
+<packages>
+<package name="RAILSTARS_25MM">
+<polygon width="0" layer="21">
+<vertex x="0.425" y="-0.001"/>
+<vertex x="0.003" y="-0.001"/>
+<vertex x="0.003" y="2.109"/>
+<vertex x="2.535" y="2.109"/>
+<vertex x="2.535" y="1.687"/>
+<vertex x="0.425" y="1.687"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="6.334" y="-0.001"/>
+<vertex x="5.912" y="-0.001"/>
+<vertex x="5.912" y="2.109"/>
+<vertex x="6.334" y="2.109"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="7.178" y="-0.001"/>
+<vertex x="6.756" y="-0.001"/>
+<vertex x="6.756" y="2.953"/>
+<vertex x="7.178" y="2.953"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="8.664" y="1.885"/>
+<vertex x="8.428" y="1.477"/>
+<vertex x="7.534" y="1.997"/>
+<vertex x="7.769" y="2.401"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="8.664" y="1.046"/>
+<vertex x="7.769" y="0.532"/>
+<vertex x="7.534" y="0.938"/>
+<vertex x="8.428" y="1.458"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="9.149" y="1.895"/>
+<vertex x="8.682" y="1.895"/>
+<vertex x="8.682" y="2.928"/>
+<vertex x="9.149" y="2.928"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="9.149" y="-0.001"/>
+<vertex x="8.682" y="-0.001"/>
+<vertex x="8.682" y="1.033"/>
+<vertex x="9.149" y="1.033"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="10.296" y="1.997"/>
+<vertex x="9.402" y="1.477"/>
+<vertex x="9.166" y="1.885"/>
+<vertex x="10.061" y="2.401"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="10.296" y="0.938"/>
+<vertex x="10.061" y="0.532"/>
+<vertex x="9.166" y="1.046"/>
+<vertex x="9.402" y="1.458"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="10.654" y="-0.001"/>
+<vertex x="10.654" y="0.421"/>
+<vertex x="12.76" y="0.421"/>
+<vertex x="12.76" y="0.843"/>
+<vertex x="10.654" y="0.843"/>
+<vertex x="10.654" y="2.109"/>
+<vertex x="13.182" y="2.109"/>
+<vertex x="13.182" y="1.687"/>
+<vertex x="11.072" y="1.687"/>
+<vertex x="11.072" y="1.265"/>
+<vertex x="13.182" y="1.265"/>
+<vertex x="13.182" y="-0.001"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="16.14" y="-0.001"/>
+<vertex x="13.609" y="-0.001"/>
+<vertex x="13.609" y="2.953"/>
+<vertex x="14.031" y="2.953"/>
+<vertex x="14.031" y="2.109"/>
+<vertex x="16.14" y="2.109"/>
+<vertex x="16.14" y="1.687"/>
+<vertex x="14.031" y="1.687"/>
+<vertex x="14.031" y="0.421"/>
+<vertex x="16.14" y="0.421"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="19.939" y="-0.001"/>
+<vertex x="19.517" y="-0.001"/>
+<vertex x="19.517" y="2.109"/>
+<vertex x="22.049" y="2.109"/>
+<vertex x="22.049" y="1.687"/>
+<vertex x="19.939" y="1.687"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="22.471" y="-0.001"/>
+<vertex x="22.471" y="0.421"/>
+<vertex x="24.581" y="0.421"/>
+<vertex x="24.581" y="0.843"/>
+<vertex x="22.471" y="0.843"/>
+<vertex x="22.471" y="2.109"/>
+<vertex x="25.003" y="2.109"/>
+<vertex x="25.003" y="1.687"/>
+<vertex x="22.893" y="1.687"/>
+<vertex x="22.893" y="1.265"/>
+<vertex x="25.003" y="1.265"/>
+<vertex x="25.003" y="-0.001"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="2.957" y="2.109"/>
+<vertex x="2.957" y="1.687"/>
+<vertex x="5.489" y="1.687"/>
+<vertex x="5.489" y="2.109"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="5.067" y="0.421"/>
+<vertex x="3.379" y="0.421"/>
+<vertex x="3.379" y="0.843"/>
+<vertex x="5.067" y="0.843"/>
+<vertex x="5.067" y="1.265"/>
+<vertex x="2.957" y="1.265"/>
+<vertex x="2.957" y="-0.001"/>
+<vertex x="5.067" y="-0.001"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="5.067" y="-0.001"/>
+<vertex x="5.489" y="-0.001"/>
+<vertex x="5.489" y="1.265"/>
+<vertex x="5.067" y="1.265"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="16.563" y="2.109"/>
+<vertex x="16.563" y="1.687"/>
+<vertex x="19.095" y="1.687"/>
+<vertex x="19.095" y="2.109"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="18.673" y="0.421"/>
+<vertex x="16.985" y="0.421"/>
+<vertex x="16.985" y="0.843"/>
+<vertex x="18.673" y="0.843"/>
+<vertex x="18.673" y="1.265"/>
+<vertex x="16.563" y="1.265"/>
+<vertex x="16.563" y="-0.001"/>
+<vertex x="18.673" y="-0.001"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="18.673" y="-0.001"/>
+<vertex x="19.095" y="-0.001"/>
+<vertex x="19.095" y="1.265"/>
+<vertex x="18.673" y="1.265"/>
+</polygon>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1745,6 +1900,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="JP1" library="SparkFun-Connectors" package="1X06" value="" x="6.35" y="15.875" smashed="yes" rot="R270">
 <attribute name="VALUE" x="3.175" y="17.145" size="1.27" layer="27" rot="R270"/>
 </element>
+<element name="U$2" library="Artificial Science" package="RAILSTARS_25MM" value="" x="44.45" y="5.08" rot="MR0"/>
 </elements>
 <signals>
 <signal name="GND">
