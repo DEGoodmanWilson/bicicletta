@@ -4,7 +4,18 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Hardware Modules</h1>
+  <ul class="post-list">
+    {% for module in site.modules %}
+    <li>
+      <h2>
+        <a class="post-link" href="{{ module.url | prepend: site.baseurl }}">{{ module.title }}</a>
+      </h2>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <h1 class="page-heading">Blog</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
