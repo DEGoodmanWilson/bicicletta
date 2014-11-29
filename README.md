@@ -48,7 +48,6 @@ The full text of the license is available in /firmware/LICENSE.txt
 HARDWARE LICENSE
 ================
 
-
 Copyright © D.E. Goodman-Wilson 2014.
 This documentation describes Open Hardware and is licensed under the
 CERN OHL v. 1.2.
