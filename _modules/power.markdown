@@ -1,25 +1,28 @@
 ---
 layout: post
-title:  "Power"
+title:  "Battery Power module"
 date:   2014-11-29 11:57:12
 categories: module
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+The Battery Power module draws power from the bicycle's battery, and provides 5V @ 500mA for consumption by the Bicicletta stack.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+#Provides
 
-Jekyll also offers powerful support for code snippets:
+* 5V @ 500mA (max) power
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+#Requires
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+* CA3 connection to motor controller
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+##Summary
+
+At the heart of the Battery Power module is the [TI LM5574][LM5574] buck regulator, which takes the high voltage power from the battery, and provides low-voltage power to the MCU and other bicycle accessories. The LM5574 has been configured for optimium efficiency with 24--48V battery packs.
+
+The Battery Power module is also where the CA3 wiring harness is attached. The CA3 connection is how Bicicletta communicates with the electric bicycle's motor controller, and is a standardized connection often available as an option on most Chinese and custom motor controllers.
+
+##Illustration
+
+![Board outline](../images/bicicletta-power-thumb.png 'Board outline')
+
+
+[LM5574]:     http://www.ti.com/product/lm5574
