@@ -22,6 +22,8 @@ The Battery Sensor module measures battery perfomance, including instantaneous v
 
 ##Design Notes
 
+This module is basically just IC combintorics, pretty straight forward.
+
 There are a number of potentially cool power monitors on the market, but only the LMP92064 would actually work in this project. I considered a discrete design from rail-to-rail op-amps, but I don't really trust my math on the various factors that entails (gain and bias calculations) to get the battery voltage (which on my bicycle can vary from 42.5V to 54.6V) compressed to a range the AVR's ADC could sample with any accuracy. So I decided on a dedicated IC with digital outputs (SPI or I2C).
 
 Linear makes a couple of really attractive power monitors with I2C interfaces, the [LTC2945] and [LTC2946]. They offer bus voltage monitoring up to 75V or 100V (depending on the model), and can be powered directly from the battery. Unfortunately, these multiple the voltage sensor and one of the current shunt sensor leads, meaning that the chips can only sense current on the high side. THe motor controllers I am working with provide their own low-side current shunt resistor, so these awesome-looking chips are off the table.
