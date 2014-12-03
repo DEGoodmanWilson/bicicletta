@@ -1817,7 +1817,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="13.0175" y="11.1125" size="0.6096" layer="25" rot="R90"/>
 <attribute name="VALUE" x="11.7475" y="12.065" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="IC2" library="adafruit" package="TSSOP14" value="" x="27.94" y="10.16" smashed="yes" rot="R90">
+<element name="IC2" library="adafruit" package="TSSOP14" value="TXB0108" x="27.94" y="10.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="30.0228" y="7.2644" size="0.6096" layer="25" ratio="10" rot="SR180"/>
 <attribute name="VALUE" x="30.0228" y="14.0462" size="1.016" layer="27" ratio="10" rot="R180"/>
 </element>

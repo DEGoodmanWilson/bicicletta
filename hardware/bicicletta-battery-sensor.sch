@@ -7191,7 +7191,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R3" library="rcl" deviceset="R-US_" device="R0603" value="100"/>
 <part name="R4" library="rcl" deviceset="R-US_" device="R0603" value="100"/>
 <part name="C1" library="rcl" deviceset="C-US" device="C0603" value="1nF"/>
-<part name="IC2" library="adafruit" deviceset="TXB0104PWR" device=""/>
+<part name="IC2" library="adafruit" deviceset="TXB0104PWR" device="" value="TXB0108"/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P+2" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="U$9" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
