@@ -1885,19 +1885,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="19.9" y1="14.605" x2="21.2725" y2="14.605" width="0.3048" layer="1"/>
 <wire x1="20.95" y1="11.91" x2="21.435" y2="11.91" width="0.3048" layer="1"/>
 <wire x1="21.435" y1="11.91" x2="21.9075" y2="12.3825" width="0.3048" layer="1"/>
-<wire x1="32.0675" y1="12.7" x2="43.18" y2="17.145" width="0" layer="19" extent="1-1"/>
-<wire x1="28.995" y1="5.715" x2="30.8578" y2="12.11" width="0" layer="19" extent="1-1"/>
-<wire x1="23.495" y1="5.715" x2="26.885" y2="5.715" width="0" layer="19" extent="1-1"/>
-<wire x1="22.225" y1="8.255" x2="22.1225" y2="5.715" width="0" layer="19" extent="1-1"/>
-<wire x1="20.95" y1="11.91" x2="20.95" y2="8.91" width="0" layer="19" extent="1-1"/>
-<wire x1="21.2725" y1="14.605" x2="21.9075" y2="12.3825" width="0" layer="19" extent="1-1"/>
-<wire x1="17.15" y1="8.91" x2="20.95" y2="8.91" width="0" layer="19" extent="1-1"/>
-<wire x1="17.15" y1="11.41" x2="17.15" y2="9.41" width="0" layer="19" extent="1-1"/>
-<wire x1="16.295" y1="5.715" x2="16.1925" y2="8.91" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="6.0325" x2="14.9225" y2="5.715" width="0" layer="19" extent="1-1"/>
-<wire x1="3.81" y1="13.335" x2="11.43" y2="7.405" width="0" layer="19" extent="1-1"/>
-<wire x1="40.64" y1="1.905" x2="28.995" y2="5.715" width="0" layer="19" extent="1-1"/>
-<wire x1="43.18" y1="1.905" x2="40.64" y2="1.905" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_BATT">
 <contactref element="JP3" pad="1"/>
