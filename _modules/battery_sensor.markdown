@@ -20,7 +20,13 @@ The Battery Sensor module measures battery perfomance, including instantaneous v
 
 ##Summary
 
-##Design Notes
+This module monitors the status of the battery, and passes it on to the MCU for further processing and forwarding to the phone's UI.
+
+#Status
+
+Prototype design nearly complete.
+
+#Design Notes
 
 This module is basically just IC combintorics, pretty straight forward.
 
