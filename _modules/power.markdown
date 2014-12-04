@@ -18,6 +18,10 @@ The Battery Power module draws power from the bicycle's battery, and provides 5V
 
 This module's job is quite simple: Take the (nominal) 48V battery power, and convert it into a usable 5V.
 
+#Status
+
+Prototype designed, built, and tested as working within design parameters.
+
 #Design Notes
 
 There are lots of ways to convert something like 48V to 5V for use as a low-current power signal. Apparently many cheap motor controllers just use a power resistor to an [LM317]. I guess this works OK if you aren't drawing more than a few milliamps, but honestly this is just shoddy design. What is really called for, especially since we don't know the power requirements at this stage (being the first module designed!) is a buck regulator.
