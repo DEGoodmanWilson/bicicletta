@@ -9,7 +9,7 @@ typedef struct _battery_status_t
   uint16_t voltage;
 } battery_status_t;
 
-battery_status_t battery_status = {0, 0};
+//battery_status_t battery_status = {0, 0};
 
 void battery_init(void);
 void battery_process(void);

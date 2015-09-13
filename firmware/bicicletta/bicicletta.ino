@@ -21,22 +21,19 @@
 
 #include "bicicletta.h"
 #include "rs_ble.h"
+#include "battery.h"
 
 void setup(void) {
   Serial.begin(57600);
-  Serial.print("Bicicletta v");
-  Serial.print(PROTOCOL_MAJOR);
-  Serial.print(".");
-  Serial.print(PROTOCOL_MINOR);
-  Serial.print(".");
-  Serial.println(PROTOCOL_BUGFIX);
 
   //Initialize BLE
   rs_ble_init();
 
   //Initialize SPI communication with battery power IC
+  battery_init();
 }
 
 void loop(void) {
   rs_ble_process();
+  battery_process();
 }
